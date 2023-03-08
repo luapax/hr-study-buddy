@@ -9,9 +9,10 @@
     ],
     "rules": {
         "prettier/prettier": [
-            "error",
+            "warn",
             {
-                "singleQuote": true
+                "singleQuote": true,
+                "endOfLine": "auto"
             }
         ]
     },
